@@ -1,4 +1,8 @@
-var nickname = "taro"
-console.log(nickname)
-var nickname = "ichiro"
-console.log(nickname)
+$(function(){
+    $('#back a').on('click',function(event){
+        $('body,html').animate({
+        scrollTop:0
+        },1000);
+        event.preventDefault();
+    });
+});
