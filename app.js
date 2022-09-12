@@ -1,2 +1,3 @@
-let promptStr=prompt('何か好きな文字を入力してください。');
-alert(promptStr)
+jQuery(document).ready(function(){
+    jQuery('body').html('<h1>Hello jQuery!!</h1>');
+});
