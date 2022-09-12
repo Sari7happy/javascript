@@ -1,4 +1,2 @@
-for(let i =0;i<10;i++){
-    console.log(i)
-}
-console.log(i)
+let promptStr=prompt('何か好きな文字を入力してください。');
+alert(promptStr)
