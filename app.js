@@ -1,17 +1,8 @@
 $(function(){
-    $('.bg1').on('click',function(){
-        $('.bg1').slideUp();
+    $('#back a').on('click',function(event){
+        $('body,html').animate({
+        scrollTop:0
+        },800);
+        event.preventDefault();
     });
-
-$('.bg2').on('click',function(){
-    $('.bg2').slideUp();
-});
-
-$('.bg3').on('click',function(){
-    $('.bg3').slideUp();
-});
-
-$('.bg4').on('click',function(){
-    $('.bg4').slideUp();
-});
 });
