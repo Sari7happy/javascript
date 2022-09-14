@@ -2,33 +2,112 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8"/>
-    <title>世界の天気</title>
-</head>
-
-<body>
-    <h3>世界の天気</h3>
-    <label>都市名：</label>
-    <input id="cityname" type="text" size="14" maxlength="14" placeholder="Tokyo">
-    <button id="btn">検索</button><br>
-    <span>場所：</span>
-    <span id="place"></span><br>
-    <span>最高気温：</span>
-    <span id="temp_max"></span>
-    <span>℃</span><br>
-    <span>最低気温：</span>
-    <span id="temp_min"></span>
-    <span>℃</span><br>
-    <span>湿度:</span>
-    <span id="humidity"></span>
-    <span>%</span><br>
-    <span>風速:</span>
-    <span id="speed"></span>
-    <span>m/s</span><br>
-    <span>天気:</span>
-    <span id="weather"></span>
-    <div id="icon"><img id="img"></div>
-    <script src="jquery.min.js"></script>
+    <title>COFFEE</title>
+    <meta name="description" content="testtesttetete"
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="app.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#location">LOCATION</a></li>
+            </ul>
+        </nav>
+        <h1 class="site-title"><img src="img/logo.svg" alt="COFFEE"></h1>
+    </header>
+    <main>
+        <section id="menu">
+            <div class="menu-img fixed-bg">
+                <h2 class="sec-title">MENU</h2>
+
+            </div>
+            <div class="menu-content wrapper">
+                <div class="menu-item">
+                    <h3 class="item-title">COFFEE</h3>
+                    <dl>
+                        <dt>コーラ</dt>
+                        <dd>&yen;500</dd>
+                        <dt>ファンタ</dt>
+                        <dd>&yen;400</dd>
+
+                    </dl>
+                </div>
+                <div class="menu-item">
+                    <h3 class="item-title">FOOD</h3>
+                    <dl class="food">
+                        <dt>オムライス</dt>
+                        <dd>&yen;600</dd>
+                        <dt>ハンバーグ</dt>
+                        <dd>&yen;700</dd>
+                    </dl>
+                    <h3 class="item-title">OTHER</h3>
+                    <dl>
+                        <dt>ケーキ</dt>
+                        <dd>&yen;500</dd>
+                        <dt>チョコレート</dt>
+                        <dd>&yen;400</dd>
+                    </dl>
+                </div>
+                </div>
+        </section>
+        <section id="about">
+            <div class="about-img fixed-bg">
+                <h2 class="sec-title">ABOUT</h2>
+            </div>
+            <div class="about-content wrapper">
+                <div class="about-item">
+                    <h3 class="item-title">COFFEE</h3>
+                    <ul>
+                        <li>
+                            tettetetetetettetetetetetetetettetete<br>
+                            tetetetetetettetetettetetetetetetet
+                        </li>
+                        <li>
+                            tetetetettetettetetetetettetetet<br>
+                            yyeyyeyeeyyeyeyeyeyeye
+                        </li>
+                    </ul>
+                    <a class="btn" href="#"><span>READ MORE</span></a>
+            </div>
+
+            </div>
+        </section>
+        <section id="location">
+            <div class="location-img fixed-bg">
+                <h2 class="sec-title">LOCATION</h2>
+            </div>
+
+            <div class="location-content wrapper">
+                <div class="location-item">
+                    <h3 class="item-title">OUR STORE</h3>
+                    <div class="item-map">
+                        <p>
+                            JDJDJDJDJDJDJJDJDDJ<br>
+                            東京都渋谷区４９４９４９４９
+                        </p>
+                        <p>
+                            OPEN7 days<br>
+                            9:00amto10:00pm
+                        </p>
+                        <p>
+                            TEL:99-00-999
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy;CAFE</p>
+    </footer>
+    
     
 </body>
 </html>
