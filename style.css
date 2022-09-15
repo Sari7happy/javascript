@@ -178,6 +178,8 @@ nav li a:hover {
     background: #e03131;
     transition: all 0.3s ease;
 }
+/* topとbottomで違うところに映し出されるので注意！ */
+
 #about .btn span::before,
 #about .btn span::after{
     position: absolute;
@@ -210,10 +212,16 @@ nav li a:hover {
     /* 赤線の横のところREAD MORE */
 }
 
+#location{
+    margin-top: 20px;
+}
 
+#location .location-img{
+background-image: url(img/beach.jpg);
+position: relative;
+}
 
-
-
+/* 画像の上に出でくる文字。relative */
 
 
 
